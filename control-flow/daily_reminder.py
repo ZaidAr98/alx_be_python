@@ -14,6 +14,6 @@ match Priority :
               reminder = f"{task} is a {Priority} priority task"  
 
 
-if(time_bound == "yes"):
+if time_bound == "yes":
      print(f"{reminder} This task requires immediate attention today!")
     
