@@ -1,6 +1,6 @@
 task  = str(input("Enter your task: "))
 Priority  = str(input("Priority (high/medium/low): "))
-time = str(input("Is it time-bound? (yes/no): "))
+time_bound = str(input("Is it time-bound? (yes/no): "))
 
 reminder = f"{task} is a {Priority} priority task"
 match Priority :
@@ -14,6 +14,6 @@ match Priority :
               reminder = f"{task} is a {Priority} priority task"  
 
 
-if(time == "yes"):
+if(time_bound == "yes"):
      print(f"{reminder} This task requires immediate attention today!")
     
