@@ -16,7 +16,7 @@ match Priority :
          elif time == "no":
             print(f"Note: {task} is a {Priority} priority task. Consider completing it when you have free time")        
 
-    case "high":
+    case "low":
          if time == "yes" :
            print(f"Reminder: {task} is a {Priority} priority task that requires immediate attention today!")
          elif time == "no":
