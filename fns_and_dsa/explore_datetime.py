@@ -8,8 +8,7 @@ def calculate_future_date(future_date):
     current_date = datetime.now()
     time_delta = timedelta(days=future_date)
     future_date = current_date + time_delta
-    specific_datetime = datetime.strftime(future_date, "%Y-%m-%d %H:%M:%S")
-    print("Future date:", specific_datetime)
+    print("Future date:", future_date.strftime("%Y-%m-%d %H:%M:%S"))
 
 
 
